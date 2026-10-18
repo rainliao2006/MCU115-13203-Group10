@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="calc_0">0</string>
+    <string name="calc_1">1</string>
+    <string name="calc_2">2</string>
+    <string name="calc_3">3</string>
+    <string name="calc_4">4</string>
+    <string name="calc_5">5</string>
+    <string name="calc_6">6</string>
+    <string name="calc_7">7</string>
+    <string name="calc_8">8</string>
+    <string name="calc_9">9</string>
+    <string name="calc_ac">AC</string>
+    <string name="calc_c">C</string>
+    <string name="calc_backspace">⌫</string>
+    <string name="calc_divide">÷</string>
+    <string name="calc_multiply">×</string>
+    <string name="calc_minus">-</string>
+    <string name="calc_plus">+</string>
+    <string name="calc_dot">.</string>
+    <string name="calc_equal">=</string>
+    <string name="calc_error">錯誤</string>
+    <string name="calc_expression_op">%1$s%2$s</string>
+</resources>
