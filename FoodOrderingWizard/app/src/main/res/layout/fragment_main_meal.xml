@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_select_main_meal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgMainMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rbBurger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_burger"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/rbFriedChicken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_fried_chicken"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/rbChickenNuggets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meal_chicken_nuggets"
+            android:textSize="16sp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDoneMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:text="@string/btn_done" />
+</LinearLayout>

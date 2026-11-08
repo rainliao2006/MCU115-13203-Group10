@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FoodOrderingWizard</string>
+
+    <!-- Main Activity -->
+    <string name="title_fast_food_order_wizard">FastFood Order Wizard</string>
+    <string name="btn_choose_main_meal">Choose Main Meal</string>
+    <string name="btn_choose_side_dishes">Choose Side Dishes</string>
+    <string name="btn_choose_drink">Choose Drink</string>
+    <string name="tv_current_selection_default">Current Selection:\nMain:\nSides:\nDrink:</string>
+    <string name="btn_order">Order</string>
+    <string name="current_selection_format">Current Selection:\nMain: %1$s\nSides: %2$s\nDrink: %3$s</string>
+
+    <!-- Main Meal Fragment -->
+    <string name="title_select_main_meal">Select Main Meal</string>
+    <string name="meal_burger">Burger</string>
+    <string name="meal_fried_chicken">Fried Chicken</string>
+    <string name="meal_chicken_nuggets">Chicken Nuggets</string>
+    <string name="btn_done">Done</string>
+
+    <!-- Side Dishes Fragment -->
+    <string name="title_select_side_dishes">Select Side Dishes (choose at least one)</string>
+    <string name="side_fries">Fries</string>
+    <string name="side_salad">Salad</string>
+    <string name="side_corn_cup">Corn Cup</string>
+
+    <!-- Drink Fragment -->
+    <string name="title_select_drink">Select Drink</string>
+    <string name="drink_cola">Cola</string>
+    <string name="drink_iced_tea">Iced Tea</string>
+    <string name="drink_water">Water</string>
+
+    <!-- Confirm Fragment -->
+    <string name="tv_order_summary_default">Your order summary will appear here.</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="order_summary_format">Order Summary:\n\nMain Meal: %1$s\nSide Dishes: %2$s\nDrink: %3$s</string>
+    <string name="not_selected">Not selected</string>
+    <string name="validation_error_message">Please select a main meal, at least one side dish, and a drink.</string>
+    <string name="dialog_submit_title">Submit Order</string>
+    <string name="dialog_submit_message">Main: %1$s\nSides: %2$s\nDrink: %3$s\n\nSubmit this order?</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="order_submitted_toast">Order submitted! 🎉</string>
+</resources>

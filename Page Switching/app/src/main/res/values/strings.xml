@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SecActivity</string>
+
+    <!-- 第一頁 (MainActivity) -->
+    <string name="title_main">第一頁</string>
+    <string name="send_hint">請輸入要發送至第二頁的文字</string>
+    <string name="btn_send">發送至第二頁</string>
+    <string name="main_received_label">從第二頁收到的回傳：</string>
+
+    <!-- 第二頁 (SecActivity) -->
+    <string name="title_sec">第二頁</string>
+    <string name="received_label">從第一頁收到的文字：</string>
+    <string name="reply_hint">請輸入要回傳到第一頁的文字</string>
+    <string name="btn_return">回傳並返回</string>
+</resources>
